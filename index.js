@@ -36,11 +36,11 @@ johnLennonFacts(facts)
 function iLoveTheBeatles(number){
 var arr = [];
 do {
-    arr = "I love the Beatles!";
+    arr[number] = "I love the Beatles!";
     number++
 }
 while (number < 15);
 return arr
 }
 
-iLoveTheBeatles(15)
+iLoveTheBeatles(2)
