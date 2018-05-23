@@ -38,7 +38,7 @@ var arr = [];
 var i = 0;
 do {
     arr[i] = "I love the Beatles!";
-    number++
+    i++
 }
 while (i <= number);
 return arr
