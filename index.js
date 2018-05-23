@@ -30,17 +30,17 @@ function johnLennonFacts(factsArr){
     }
     return JohnArr;
 }
-johnLennonFacts(facts)
+johnLennonFacts(facts);
 
 
 function iLoveTheBeatles(number){
 var arr = [];
 do {
     arr.push("I love the Beatles!");
-    number++
+    number++;
 }
 while (number < 15);
-return arr
+return arr;
 }
 
-iLoveTheBeatles(2)
+iLoveTheBeatles(2);
