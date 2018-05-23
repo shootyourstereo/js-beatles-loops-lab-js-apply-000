@@ -40,7 +40,7 @@ do {
     arr[i] = "I love the Beatles!";
     number++
 }
-while (number < 15);
+while (i <= number);
 return arr
 }
 
