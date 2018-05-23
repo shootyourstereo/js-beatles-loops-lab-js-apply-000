@@ -35,12 +35,11 @@ johnLennonFacts(facts)
 
 function iLoveTheBeatles(number){
 var arr = [];
-var i = 0;
 do {
-    arr[i] = "I love the Beatles!";
-    i++
+    arr = "I love the Beatles!";
+    number++
 }
-while (i < number);
+while (number < 15);
 return arr
 }
 
